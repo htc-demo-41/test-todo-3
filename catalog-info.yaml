@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "test-todo-3"
+  description: "test-todo-3"
+  tags:
+    - java
+    - quarkus
+  annotations:
+    'github.com/project-slug': htc-demo-41/test-todo-3
+    'backstage.io/kubernetes-id': test-todo-3
+    'humanitec.com/orgId': "htc-demo-41"
+    'humanitec.com/appId': "test-todo-3"
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "group:default/guest"
